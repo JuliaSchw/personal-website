@@ -4,3 +4,18 @@
 *::after {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'RC-variable';
+  src: 
+  url('/fonts/RobotoCondensed-VariableFont_wght.ttf') format('truetype'),
+  url('/fonts/Italic-RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; 
+  font-style: normal;
+}
+
+.title {
+  font-family: 'RC-variable', sans-serif;
+  color: brown;
+}
+
