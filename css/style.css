@@ -8,14 +8,43 @@
 @font-face {
   font-family: 'RC-variable';
   src: 
-  url('/fonts/RobotoCondensed-VariableFont_wght.ttf') format('truetype'),
-  url('/fonts/Italic-RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+  url('/fonts/RobotoCondensed/RobotoCondensed-VariableFont_wght.ttf') format('truetype'),
+  url('/fonts/RobotoCondensed/RobotoCondensed-Italic-VariableFont_wght.ttf') format('truetype');
   font-weight: 100 900; 
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: 
+  url('/fonts/Roboto/Roboto-Black.ttf') format('truetype')
+  url('/fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype')
+  url('/fonts/Roboto/Roboto-Bold.ttf') format('truetype')
+  url('/fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype')
+  url('/fonts/Roboto/Roboto-Italic.ttf') format('truetype')
+  url('/fonts/Roboto/Roboto-Light.ttf') format('truetype')
+  url('/fonts/Roboto/Roboto-LightItalic.ttf') format('truetype')
+  url('/fonts/Roboto/Roboto-Medium.ttf') format('truetype')
+  url('/fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype')
+  url('/fonts/Roboto/Roboto-Regular.ttf') format('truetype')
+  url('/fonts/Roboto/Roboto-Thin.ttf') format('truetype')
+  url('/fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype');
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: hotpink;
+}
+
 .title {
   font-family: 'RC-variable', sans-serif;
-  color: brown;
+  color: rgb(0, 3, 19);
+}
+
+.subtitle {
+  font-family: 'RC-variable', sans-serif;
+  color: rgb(0, 3, 19);
 }
 
