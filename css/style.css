@@ -17,7 +17,22 @@
 body {
   font-family: 'RC-variable';
   font-weight: 400;
-  color: hotpink;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.nav--menu {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  gap: 30px;
+
 }
 
 .title {
