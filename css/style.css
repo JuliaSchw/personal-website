@@ -44,6 +44,14 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-weight: 200;
+  font-stretch: ultra-expanded;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+
 .nav--menu {
   display: flex;
   list-style: none;
@@ -61,9 +69,29 @@ a {
   color: rgb(0, 3, 19);
 }
 
-.container_grid_2 {
+.container {
   margin-left: 50px;
   margin-right: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+}
+
+.button-34 {
+  background: #e97a25;
+  border-radius: 999px;
+  box-shadow: #e97a25 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
 }
